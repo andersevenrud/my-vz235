@@ -53,7 +53,7 @@ All assembly parts were printed with ABS
     * TMC2240 driver (24V)
     * Mellow 8mm inductive probe
     * Phaetus Rapido 2.0 UHF hotend
-        * 0.6mm Volcano Hardened Steel Nozzle
+        * Bondtech Bi-Metal CHT 0.6mm Volcano nozzle
     * Trihorn fan duct
 * MCUs
     * BTT Octopus Pro v1.1
