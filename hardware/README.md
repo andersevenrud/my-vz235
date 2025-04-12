@@ -17,11 +17,12 @@ All assembly parts were printed with ABS
     * DIN Rails for electronics attachment
     * Rubber feet (25mm)
 * Bed
-    * Creality 235x235 heated bed
+    * Mellow double-sided PEI spring sheet
+    * Mellow VzBot 235 8mm aluminum bed
+    * Mellow VzBot 235 220V (500W) silicone heater
+    * Omron G3NB-1 Solid State Relay
     * Silicone solid mounts
-    * Brass M4 thumb tramming nuts
-    * 3M magnetic surface
-    * PrimaFlex Textured PEI Sheet
+    * Brass M3 thumb tramming nuts
 * X-Axis
     * LDO 42STH48-2504AC stepper
     * TMC5160 Pro driver (48V)
@@ -59,15 +60,14 @@ All assembly parts were printed with ABS
     * BTT Octopus Pro v1.1
     * Fly ADXL245 Accelerometer
     * Raspberry Pi 4 Host
-* Cooling
+* Temperature Control
     * Mellow WS7040 24V CPAP Blower fan
     * Mellow 15mm CPAP fan pipe
     * WINSINN 2510 24V Hydraulic dual bearing hotend cooling fan
     * Sunon Maglev 4020 stepper/mcu cooling fans (x3)
     * Sunon Maglev 4020 raspi cooling fan
-    * GDSTime 6025 brushless exhaust fans (x2)
-        * Carbon filter
-        * HEPA filter
+    * GDSTIME 5015 bed fans (x2)
+    * GDSTIME 6025 brushless exhaust fans (x2)
 * PSUs
     * Sompom 24V 15A
     * Sompom 48V 7.5A
@@ -78,3 +78,4 @@ All assembly parts were printed with ABS
     * Piezo Buzzer
     * DWS 136deg 1080p USB camera
     * LED Strips
+    * Carbon + HEPA exhaust filters
