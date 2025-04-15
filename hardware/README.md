@@ -52,13 +52,14 @@ All assembly parts were printed with ABS
 * Toolhead
     * LDO Orbiter Extruder (v2)
     * TMC2240 driver (24V)
-    * Mellow 8mm inductive probe
+    * BTT MicroProbe v2
     * Phaetus Rapido 2.0 UHF hotend
         * Bondtech Bi-Metal CHT 0.6mm Volcano nozzle
     * Trihorn fan duct
 * MCUs
     * BTT Octopus Pro v1.1
     * Fly ADXL245 Accelerometer
+    * Voron Klipper Expander
     * Raspberry Pi 4 Host
 * Temperature Control
     * Mellow WS7040 24V CPAP Blower fan
@@ -73,7 +74,7 @@ All assembly parts were printed with ABS
     * Sompom 48V 7.5A
     * KIS3R33S Buck Converter (5V, 15W)
 * Misc
-    * Maecoom 3950 Thermistors (x3)
+    * 3950 Thermistors (x6)
     * Mellow Fly 5" LCD
     * Piezo Buzzer
     * DWS 136deg 1080p USB camera
