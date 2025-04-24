@@ -35,7 +35,7 @@ All assembly parts were printed with ABS
 * Y-Axis
     * LDO 42STH48-2504AC stepper
     * TMC5160 Pro driver (48V)
-    * Mellow lightweight aliminum gantry
+    * Mellow lightweight aluminum gantry
     * Gates 20T pulleys/idlers
     * Gates 2GT 6mm belt
     * Jinger micro switch endstop
@@ -50,12 +50,13 @@ All assembly parts were printed with ABS
     * Optical Axis Chrome plated rods (x4)
     * SHOOMO T8 lead screws (x2)
 * Toolhead
+    * Mellow Vz Printhead MGN9 (Clone)
     * LDO Orbiter Extruder (v2)
     * TMC2240 driver (24V)
     * BTT MicroProbe v2
     * Phaetus Rapido 2.0 UHF hotend
         * Bondtech Bi-Metal CHT 0.6mm Volcano nozzle
-    * Trihorn fan duct
+    * Fatty Bomb Duct
 * MCUs
     * BTT Octopus Pro v1.1
     * Fly ADXL245 Accelerometer
@@ -67,14 +68,17 @@ All assembly parts were printed with ABS
     * WINSINN 2510 24V Hydraulic dual bearing hotend cooling fan
     * Sunon Maglev 4020 stepper/mcu cooling fans (x3)
     * Sunon Maglev 4020 raspi cooling fan
+    * Sunon Maglev 4020 stepper motor cooling fans (x2)
     * GDSTIME 5015 bed fans (x2)
     * GDSTIME 6025 brushless exhaust fans (x2)
+    * 3950 Thermistors for chamber (top / bottom)
+    * 3950 Thermistors for steppers (x2)
+    * 3950 M3 Screw-in Thermistor for bed edge
 * PSUs
-    * Sompom 24V 15A
-    * Sompom 48V 7.5A
-    * KIS3R33S Buck Converter (5V, 15W)
+    * Sompom 24V (15A)
+    * Sompom 48V (7.5A)
+    * KIS3R33S 5V Buck Converter (15W)
 * Misc
-    * 3950 Thermistors (x6)
     * Mellow Fly 5" LCD
     * Piezo Buzzer
     * DWS 136deg 1080p USB camera
