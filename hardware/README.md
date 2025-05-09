@@ -2,7 +2,7 @@
 
 A CoreXY FFF/FDM 3D printer.
 
-## Specs
+## Specifications
 
 TODO
 
@@ -30,8 +30,8 @@ All assembly parts were printed with ABS
     * Gates 20T pulleys/idlers
     * Gates 2GT 6mm belt
     * Jinger micro switch endstop
-    * Polisi3D Copper Belt Clamps
     * HIWIN MGN9H Linear Rail
+    * Titanium screws and bolts
 * Y-Axis
     * LDO 42STH48-2504AC stepper
     * TMC5160 Pro driver (48V)
@@ -41,6 +41,7 @@ All assembly parts were printed with ABS
     * Jinger micro switch endstop
     * Polisi3D Copper Belt Clamps
     * HIWIN MGN12H Linear Rails (x2)
+    * Titanium screws and bolts
 * Z-Axis
     * LDO 42STH48-2504AC stepper
     * TMC2240 driver (24V)
@@ -49,17 +50,18 @@ All assembly parts were printed with ABS
     * Fushi LM10LUU (x4)
     * Optical Axis Chrome plated rods (x4)
     * SHOOMO T8 lead screws (x2)
+* Extruder
+    * Moons CSE14HRA1L410A-01 stepper
+    * TMC2240 driver (24V)
+    * Mellow HextrudORT Low PLUS w/Moons 10T
 * Toolhead
     * Mellow Vz Printhead MGN9 (Clone)
-    * LDO Orbiter Extruder (v2)
-    * TMC2240 driver (24V)
-    * BTT MicroProbe v2
+    * Cartographer 3D eddy probe
     * Phaetus Rapido 2.0 UHF hotend
-        * Bondtech Bi-Metal CHT 0.6mm Volcano nozzle
+    * Bondtech Bi-Metal CHT 0.6mm Volcano nozzle
     * Fatty Bomb Duct
 * MCUs
     * BTT Octopus Pro v1.1
-    * Fly ADXL245 Accelerometer
     * Voron Klipper Expander
     * Raspberry Pi 4 Host
 * Temperature Control
@@ -82,5 +84,5 @@ All assembly parts were printed with ABS
     * Mellow Fly 5" LCD
     * Piezo Buzzer
     * DWS 136deg 1080p USB camera
-    * LED Strips
+    * LED Strips (24V White ambient & Neopixel accents/indicators)
     * Carbon + HEPA exhaust filters
