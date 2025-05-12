@@ -53,13 +53,13 @@ All assembly parts were printed with ABS
 * Extruder
     * Moons CSE14HRA1L410A-01 stepper
     * TMC2240 driver (24V)
-    * Mellow HextrudORT Low PLUS w/Moons 10T
+    * Mellow HextrudORT Low PLUS w/Moons (60:10)
 * Toolhead
     * Mellow Vz Printhead MGN9 (Clone)
+    * Mellow Magneto Cutter
     * Cartographer 3D eddy probe
     * Phaetus Rapido 2.0 UHF hotend
     * Bondtech Bi-Metal CHT 0.6mm Volcano nozzle
-    * Fatty Bomb Duct
 * MCUs
     * BTT Octopus Pro v1.1
     * Voron Klipper Expander
