@@ -5,6 +5,20 @@
 * Bed shape: 220x220
 * Max print height: 200
 * Firmware retraction: Yes
+* Maximum feedrate X: 800
+* Maximum feedrate Y: 800
+* Maximum feedrate Z: 20
+* Maximum feedrate E: 120
+* Maximum acceleration X: 15000
+* Maximum acceleration Y: 15000
+* Maximum acceleration Z: 1500
+* Maximum acceleration E: 8000
+* Maximum acceleration when extruding: 3000
+* Maximum acceleration when retracting: 3000
+* Maximum jerk X: 10
+* Maximum jerk Y: 10
+* Maximum jerk Z: 0.3
+* Maximum jerk E: 5
 
 ## Macros
 
