@@ -41,3 +41,11 @@ make KCONFIG_CONFIG=host.kconfig menuconfig
 make KCONFIG_CONFIG=host.kconfig
 make KCONFIG_CONFIG=host.kconfig flash
 ```
+
+### Cartographer
+
+The software from https://github.com/Cartographer3D/cartographer-klipper includes
+a CLI tool to update the firmware:
+
+* DFU: https://docs.cartographer3d.com/cartographer-probe/firmware/firmware-updating/via-dfu
+* Katapult: https://docs.cartographer3d.com/cartographer-probe/firmware/firmware-updating/via-katapult/usb-flash
