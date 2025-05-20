@@ -4,7 +4,31 @@ A CoreXY FFF/FDM 3D printer.
 
 ## Specifications
 
-TODO
+* Optimal print volume: 220x220x200mm
+* Max print volume: 235x235x220mm
+* Max acceleration: 30000mm/s^2
+* Max movement speed: 1000mm/s
+* Max volumetric speed: 50mm^3/s
+* Max chamber temperature: 50C
+* Max bed temperature: 120C
+* Max hotend temperature: 300C
+* Enclosure: Yes; front Doors, top Hat
+* Lighting: Yes; White overhead, RGB Neopixel ambient
+* Camera: Yes (Full HD, Wide Angle)
+* Chamber heating: Passive
+* Exhaust: Filtered
+* Filament Management: Cutter
+* Parts Cooling: CPAP
+* Bed Probe: Eddy (Touch and Scan)
+* Bed Tramming: Manual
+* Bed Plate: Magnetic, PEI, Double-sided
+* Display: 5" LCD w/touch
+
+### Power draw
+
+* Idle: ?
+* Warming: ?
+* Printing: ?
 
 ## Parts
 
