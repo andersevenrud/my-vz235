@@ -1,6 +1,14 @@
 # Slicer Setup
 
+OrcaSlicer is preferred
+
+> OrcaSlicer comes with a AWD profile that can be modified for all nozzle sizes.
+
 ## Parameters
+
+These are the "safe" ones for daily running.
+
+Anything else can be derived from slicer default profiles.
 
 * Bed shape: 220x220
 * Max print height: 200
@@ -12,20 +20,25 @@
 * Maximum acceleration X: 15000
 * Maximum acceleration Y: 15000
 * Maximum acceleration Z: 1500
-* Maximum acceleration E: 8000
-* Maximum acceleration when extruding: 3000
-* Maximum acceleration when retracting: 3000
-* Maximum jerk X: 10
-* Maximum jerk Y: 10
-* Maximum jerk Z: 0.3
-* Maximum jerk E: 5
+* Maximum acceleration E: 15000
+* Maximum acceleration when extruding: 15000
+* Maximum acceleration when retracting: 10000
+* Maximum jerk X: 0
+* Maximum jerk Y: 0
+* Maximum jerk Z: 0
+* Maximum jerk E: 0
+* Extruder clearance: 45mm radius, 36mm to rod, 140mm to lid
+
+## Speed profiles
+
+TODO. Currently calibrating, however the Vz official ones seems to be OK.
 
 ## Macros
 
 ### Start G-Code
 
 ```gcode
-START_PRINT EXTRUDER_TEMP={first_layer_temperature[initial_extruder]} BED_TEMP={first_layer_bed_temperature[initial_extruder]} FILAMENT_TYPE={filament_type[0]} FILAMENT_VENDOR={filament_vendor}
+START_PRINT EXTRUDER_TEMP={first_layer_temperature[initial_extruder]} BED_TEMP={bed_temperature_initial_layer_single} FILAMENT_TYPE={filament_type[0]} FILAMENT_VENDOR={filament_vendor[0]}
 SET_PRINT_STATS_INFO TOTAL_LAYER=[total_layer_count]
 ```
 
@@ -55,7 +68,7 @@ SET_PRINT_STATS_INFO CURRENT_LAYER={layer_num + 1}
 ### Color change G-Code
 
 ```gcode
-M600
+PAUSE
 ```
 
 ### Pause print G-Code
