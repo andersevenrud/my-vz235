@@ -162,3 +162,18 @@ to get a perfect first layer.
 Use the included "ShakeTune" macros and run a `AXES_SHAPER_CALIBRATION` to automatically measure all axes.
 
 The recommended values will be printed to the console and can be applied to the printer configuration.
+
+## Bed Model Calibration
+
+The `default` profile that is created during the Cartographer calibration should suffice for most scenarios
+but it is possible to create different models based on what bed plate is used, i.e.:
+
+```gcode
+CARTOGRAPHER_MODEL_SELECT NAME=flat
+CARTOGRAPHER_CALIBRATE
+SAVE_CONFIG
+
+CARTOGRAPHER_MODEL_SELECT NAME=textured
+CARTOGRAPHER_CALIBRATE
+SAVE_CONFIG
+```
