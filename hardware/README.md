@@ -26,9 +26,12 @@ A CoreXY FFF/FDM 3D printer.
 
 ### Power draw
 
-* Idle: ?
-* Warming: ?
-* Printing: ?
+Approximate values:
+
+* Idle (after cold boot): < 30W
+* Active (homed, all steppers active): < 90W
+* Heat soaking (while active): ~ 200W - 750W
+* Printing (standard petg profile): ~ 120W - 260W
 
 ## Parts
 
