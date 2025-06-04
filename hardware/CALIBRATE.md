@@ -2,6 +2,32 @@
 
 A brief guide on how to calibrate the printer.
 
+## AWD Sync
+
+This is best done with a tension of 100Hz or below (but no slack).
+
+1. Unscrew motor tension set screws on front steppers
+2. Unscrew the grub screws on front stepperS
+3. Move gantry around, and back to initial position
+4. Run `ACTIVATE_STEPPERS` macro
+5. Tighten the grub screws on front steppers
+
+Leave motor tension screws lose and do a belt tensioning afterwards.
+
+## Belt Tension
+
+Use a mobile app and pluck the inside part of the belt in front while the
+toolhead is parked in the middle of the bed. The frequency should be around 180Hz.
+
+This should be done after AWD sync.
+
+1. Move the printhead to the center of the bed
+2. Loosen the front motor tension set screws
+3. Adjust front tension screws and measure frequency
+4. Tighten the front motor tension set screws
+
+This requires a Resonance Calibration afterwards.
+
 ## Bed Tramming
 
 First tram by hand with a feeler gauge and tighten adjustment wheels until the resistance feels the same on all four corners.

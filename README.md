@@ -1,4 +1,4 @@
-# VZBot 235 2WD
+# My VZBot 235 AWD
 
 A repository for my VZBot
 
