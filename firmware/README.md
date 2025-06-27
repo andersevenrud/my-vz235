@@ -19,18 +19,6 @@ make KCONFIG_CONFIG=octopus.kconfig
 cp out/klipper.bin /mnt/sd-card/firmware.bin
 ```
 
-### Voron Klipper Expander
-
-Place the BOOT jumper into place and press the RESET button to enter DFU
-mode. The device should show up in `lsusb`.
-
-```bash
-make clean
-make KCONFIG_CONFIG=expander.kconfig menuconfig
-make KCONFIG_CONFIG=expander.kconfig
-make KCONFIG_CONFIG=expander.kconfig flash FLASH_DEVICE=0483:df11
-```
-
 ### Host
 
 Reset the host after flashing.
