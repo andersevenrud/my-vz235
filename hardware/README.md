@@ -9,7 +9,7 @@ A QuadXY FFF/FDM 3D printer.
 * Max acceleration: 50000mm/s^2
 * Max movement speed: 1000mm/s
 * Max volumetric speed: 50mm^3/s
-* Max chamber temperature: 50C
+* Max chamber temperature: 60C
 * Max bed temperature: 120C
 * Max hotend temperature: 300C
 * Stepper voltage: 48V X/Y, 24V Z
