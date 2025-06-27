@@ -203,3 +203,16 @@ CARTOGRAPHER_MODEL_SELECT NAME=textured
 CARTOGRAPHER_CALIBRATE
 SAVE_CONFIG
 ```
+
+## RSCS
+
+The ducts should be approx 3-4mm above the build plate.
+
+> The gauge can be just a simple 3-4mm thick piece of cardboard or plastic, it just has to
+> be straight and reach from the edge of the bed and under the ducts.
+
+1. Unscrew top vent scews on both sides
+2. Move Z to 0
+3. Place the gauge on the bed and raise/lower the duct until it rests on the gauge
+4. Ensure both ducts are level
+5. Tighten screws
