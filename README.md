@@ -1,5 +1,5 @@
-# My VZBot 235 AWD
+# My VzBot 235 AWD
 
-A repository for my VZBot
+A repository for my self-sourced custom VzBot.
 
 Serial: #384
