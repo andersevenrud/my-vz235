@@ -68,7 +68,7 @@ All assembly parts were printed with ABS
     * HIWIN MGN12H Linear X Rails (x2)
     * HIWIN MGN9H Linear Y Rail
     * Gates 20T pulleys/idlers
-    * Gates 2GT 6mm belt
+    * Gates 2GT EPDM 6mm belts
     * Jinger micro switch endstops
 * Toolhead
     * Moons CSE14HRA1L410A-01 stepper
