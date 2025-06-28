@@ -3,3 +3,5 @@
 A repository for my self-sourced custom VzBot.
 
 Serial: #384
+
+![Photo](./hardware/photo.jpg)
