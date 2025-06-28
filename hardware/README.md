@@ -4,6 +4,7 @@ A QuadXY FFF/FDM 3D printer.
 
 ## Specifications
 
+* Kinematics: QuadXY (AWD), Single Z
 * Optimal print volume: 220x220x200mm
 * Max print volume: 235x235x220mm
 * Max acceleration: 50000mm/s^2
@@ -13,17 +14,19 @@ A QuadXY FFF/FDM 3D printer.
 * Max bed temperature: 120C
 * Max hotend temperature: 300C
 * Stepper voltage: 48V X/Y, 24V Z
-* Enclosure: Yes; front Doors, top Hat
+* Enclosure: Yes; magnetic front doors, removable top cover
 * Lighting: Yes; White overhead, RGB Neopixel ambient
-* Camera: Yes (Full HD, Wide Angle)
-* Chamber heating: Passive
+* Camera: Yes; Full HD, Wide Angle
+* Chamber heating: Passive w/bed fans
 * Exhaust: Filtered
-* Filament Management: Cutter
+* Filament Management: Cutter, Macros
 * Parts Cooling: CPAP, RSCS
+* Hardware Cooling: PSU, Host, MCU, Stepper drivers
 * Bed Probe: Eddy (Touch and Scan)
 * Bed Tramming: Manual
 * Bed Plate: Magnetic, PEI, Double-sided
 * Display: 5" LCD w/touch
+* Other: Pieze buzzer
 
 ### Power draw
 
@@ -39,13 +42,13 @@ Approximate values:
 All assembly parts were printed with ABS
 
 * Frame
-    * 2020 Black Aluminum Extrusion
+    * 2020 Black Aluminum Extrusions
     * 3mm Polycarbonate glass side panels
     * 3mm aluminum back/bottom panels
     * DIN Rails for electronics attachment
     * Rubber feet (25mm)
 * Bed
-    * LDO 42STH48-2504AC stepper
+    * LDO 42STH48-2504AC Z stepper
     * TMC2240 driver
     * Mellow double-sided PEI spring sheet
     * Mellow 8mm aluminum bed
@@ -58,8 +61,8 @@ All assembly parts were printed with ABS
     * Optical Axis Chrome plated rods (x4)
     * SHOOMO T8 lead screws (x2)
 * Gantry
-    * LDO 42STH48-2804AH(S40R) long shaft stepper (x4)
-    * TMC5160 Pro driver (x4)
+    * LDO 42STH48-2804AH(S40R) long shaft X/Y steppers (x4)
+    * TMC5160 Pro X/Y drivers (x4)
     * Mellow aluminum long shaft motor mounts
     * Mellow aluminum gantry
     * Mellow aluminum gantry rail
@@ -72,7 +75,7 @@ All assembly parts were printed with ABS
     * Jinger micro switch endstops
 * Toolhead
     * Moons CSE14HRA1L410A-01 stepper
-    * TMC2240 driver (24V)
+    * TMC2240 extruder driver
     * Mellow HextrudORT Low PLUS (60:10)
     * Mellow Vz Printhead MGN9 (Clone)
     * Mellow Magneto Cutter
@@ -93,7 +96,6 @@ All assembly parts were printed with ABS
     * GDSTIME 6025 24V brushless exhaust fans (x2)
     * GDSTIME 7530 24V dual ball bearing aux cooling fans (x2)
     * 3950 Thermistors for chamber (top / bottom)
-    * 3950 Thermistors for steppers (x2)
     * 3950 M3 Screw-in Thermistor for bed edge
 * PSUs
     * Sompom 24V (15A)
