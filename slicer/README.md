@@ -6,9 +6,7 @@ OrcaSlicer is preferred
 
 ## Parameters
 
-These are the "safe" ones for daily running.
-
-Anything else can be derived from slicer default profiles.
+These are the default parameters:
 
 * Bed shape: 220x220
 * Max print height: 200
@@ -17,12 +15,12 @@ Anything else can be derived from slicer default profiles.
 * Maximum feedrate Y: 800
 * Maximum feedrate Z: 20
 * Maximum feedrate E: 120
-* Maximum acceleration X: 15000
-* Maximum acceleration Y: 15000
+* Maximum acceleration X: 50000
+* Maximum acceleration Y: 50000
 * Maximum acceleration Z: 1500
 * Maximum acceleration E: 15000
-* Maximum acceleration when extruding: 15000
-* Maximum acceleration when retracting: 10000
+* Maximum acceleration when extruding: 50000
+* Maximum acceleration when retracting: 15000
 * Maximum jerk X: 0
 * Maximum jerk Y: 0
 * Maximum jerk Z: 0
