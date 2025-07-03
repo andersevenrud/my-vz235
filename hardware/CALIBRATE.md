@@ -239,7 +239,7 @@ MANUAL_STEPPER STEPPER=wiper MOVE=845 SPEED=2000
 Now adjust the `845` value in the gcode and re-run that step as needed until the arm is
 perfectly horizontal when extended.
 
-Add this value to the `WIPE_NOZZLE` macro paramters and retract the arm:
+Add this value to the `_WIPER_VARIABLE` macro variables, then retract the arm:
 
 ```
 MANUAL_STEPPER STEPPER=wiper MOVE=0
@@ -259,7 +259,7 @@ arm barely hits the bed. Fine tune until touching.
 
 ### Macros
 
-Now adjust the `MIN_` and `MAX_` values in the `WIPE_NOZZLE` macro to ensure
+Now adjust the `min_` and `max_` variables in the `_WIPER_VARIABLE` macro to ensure
 the nozzle stays on the pad in the Y-direction and the nozzle goes 5-10mm
 (or as needed) outside the pad in the X-direction.
 
