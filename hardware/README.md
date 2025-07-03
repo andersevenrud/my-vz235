@@ -26,7 +26,7 @@ A QuadXY FFF/FDM 3D printer.
 * Bed Tramming: Manual
 * Bed Plate: Magnetic, PEI, Double-sided
 * Display: 5" LCD w/touch
-* Other: Pieze buzzer
+* Other: Piezo buzzer
 
 ### Power draw
 
