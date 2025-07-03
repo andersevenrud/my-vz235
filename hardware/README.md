@@ -19,7 +19,7 @@ A QuadXY FFF/FDM 3D printer.
 * Camera: Yes; Full HD, Wide Angle
 * Chamber heating: Passive w/bed fans
 * Exhaust: Filtered
-* Filament Management: Cutter, Macros
+* Filament Management: Wiper, Cutter, Macros
 * Parts Cooling: CPAP, RSCS
 * Hardware Cooling: PSU, Host, MCU, Stepper drivers
 * Bed Probe: Eddy (Touch and Scan)
@@ -107,3 +107,4 @@ All assembly parts were printed with ABS
     * DWS 136deg 1080p USB camera
     * LED Strips (24V White ambient & Neopixel accents/indicators)
     * Carbon + HEPA exhaust filters
+    * Stepper driven nozzle cleaner (LDO 42STH25-1404MAC, TMC2209)

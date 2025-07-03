@@ -216,3 +216,51 @@ The ducts should be approx 3-4mm above the build plate.
 3. Place the gauge on the bed and raise/lower the duct until it rests on the gauge
 4. Ensure both ducts are level
 5. Tighten screws
+
+## Nozzle wiper
+
+It should be calibrated so that the nozzle penetrates the wiper material by 0.5 - 1.0 mm.
+
+### Arm
+
+First calibrate the angle of the wiper arm:
+
+> Move the arm close to the switch by hand first and ensure bed is 20mm+ away.
+
+```
+# Home arm first
+MANUAL_STEPPER STEPPER=wiper MOVE=-1000 STOP_ON_ENDSTOP=1 SPEED=2000
+MANUAL_STEPPER STEPPER=wiper SET_POSITION=0
+
+# Extend arm
+MANUAL_STEPPER STEPPER=wiper MOVE=845 SPEED=2000
+```
+
+Now adjust the `845` value in the gcode and re-run that step as needed until the arm is
+perfectly horizontal when extended.
+
+Add this value to the `WIPE_NOZZLE` macro paramters and retract the arm:
+
+```
+MANUAL_STEPPER STEPPER=wiper MOVE=0
+```
+
+### Body
+
+Now adjust the body up/down until the nozzle can dig the wiper material by 0.5 - 1.0 mm.
+
+Ensure everything is straight and tighten the screws.
+
+### Bed
+
+With the printer homed and arm retracted, move Z to 20mm+, extend the arm
+and then jog the bed upwards slowly (down to 1mm) until the screws under the
+arm barely hits the bed. Fine tune until touching.
+
+### Macros
+
+Now adjust the `MIN_` and `MAX_` values in the `WIPE_NOZZLE` macro to ensure
+the nozzle stays on the pad in the Y-direction and the nozzle goes 5-10mm
+(or as needed) outside the pad in the X-direction.
+
+You can find these values by jogging the head and note down the values.
