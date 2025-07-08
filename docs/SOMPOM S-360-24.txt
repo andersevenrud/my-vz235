@@ -1,0 +1,32 @@
+SOMPOM S-360-24 (https://spympower.com/product/s-360-24/)
+
+DC Output: 24V 15A 360W
+Weight: 778g
+Size: 215*112*50mm
+Cooling: Fan
+
+Specifications:
+
+* DC Voltage: 24V DC
+* Current: 15A
+* Ripple & Noise: 80MV
+* DC Adjustable Range: ±10%
+* Rated Voltage Voltage Tolerance: ±2.0%
+* Line Regulation: ±0.5%
+* Load Regulation: ±1% Setup,Rise Time,Hold Up Time:200ms,50ms, 20ms/230VAC AC
+* Voltage Range: 85-264VAC
+* Frequency Range: 47-63Hz
+* Efficiency:85%
+* AC Current: 0.86/115V 0.4A/230V
+* AC Inrush Current: 20A/115V 40A/230V
+* Leakage Current< 0.5mA /240VAC
+* Over-load: 105%-150% hiccup mode,Auto-recovery
+* Over-voltage: 115%-135% Cut Off the Output,Auto-recovery
+* Over-temp.: Shut down O/P voltage, Auto-recovery
+* Working temp.: -10~ +60C° (Refer to output load derating curve)
+* Working Humidity:20 ~ 90% RH, non-condensing
+* Storage Temp.: -10~ +60C°
+* Storage Humidity: 10 ~ 95% RH
+* Isolation Resistance:I/P-O/P,I/P-FG,O/P-FG:100M Ohms/500VDC / 25C°/ 70% RH
+* Withstand Voltage: I/P-O/P:3KVAC I/P-FG:1.5KVAC O/P-FG:0.5KVAC
+* Safety standards: CE,RoHS,FCC,ISO9001

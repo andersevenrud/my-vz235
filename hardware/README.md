@@ -83,7 +83,7 @@ All assembly parts were printed with ABS
     * Phaetus Rapido 2.0 UHF hotend
     * Bondtech Bi-Metal CHT 0.6mm Volcano nozzle
 * MCUs
-    * BTT Octopus Pro v1.1
+    * BTT Octopus Pro v1.1 (H723)
     * Raspberry Pi 4 Host
 * Temperature Control
     * Mellow WS7040 24V CPAP Blower fan
@@ -98,8 +98,8 @@ All assembly parts were printed with ABS
     * 3950 Thermistors for chamber (top / bottom)
     * 3950 M3 Screw-in Thermistor for bed edge
 * PSUs
-    * Sompom 24V (15A)
-    * Sompom 48V (7.5A)
+    * Sompom S-360-24, 24V, 15A, 360W
+    * Sompom S-360-48, 48V, 7.5A, 360W
     * KIS3R33S 5V Buck Converter (15W)
 * Misc
     * Mellow Fly 5" LCD
