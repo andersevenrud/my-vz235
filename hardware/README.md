@@ -88,7 +88,7 @@ All assembly parts were printed with ABS
 * Temperature Control
     * Mellow WS7040 24V CPAP Blower fan
     * Mellow 15mm CPAP fan pipe
-    * WINSINN 2510 24V Hydraulic dual bearing hotend cooling fan
+    * Delta 2510 5V dual bearing hotend cooling fan
     * Sunon Maglev 4020 24V mcu cooling fans (x3)
     * Sunon Maglev 4020 12V raspi cooling fan
     * Sunon Maglev 4020 24V stepper motor cooling fans (x2)
@@ -105,6 +105,7 @@ All assembly parts were printed with ABS
     * Mellow Fly 5" LCD
     * Piezo Buzzer
     * DWS 136deg 1080p USB camera
-    * LED Strips (24V White ambient & Neopixel accents/indicators)
+    * 24V RGB 300mm Flex LED Strip for accent lighting
+    * 24V White VzLight 300mm PCB LED Strip for overhead lighting
     * Carbon + HEPA exhaust filters
     * Stepper driven nozzle cleaner (LDO 42STH25-1404MAC, TMC2209)
