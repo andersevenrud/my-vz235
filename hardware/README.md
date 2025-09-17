@@ -12,7 +12,7 @@ A QuadXY FFF/FDM 3D printer.
 * Max volumetric speed: 50mm^3/s
 * Max chamber temperature: 60C
 * Max bed temperature: 120C
-* Max hotend temperature: 300C
+* Max hotend temperature: 350C
 * Stepper voltage: 48V X/Y, 24V Z
 * Enclosure: Yes; magnetic front doors, removable top cover
 * Lighting: Yes; White overhead, RGB Neopixel ambient
