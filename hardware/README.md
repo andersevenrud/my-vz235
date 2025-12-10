@@ -62,7 +62,7 @@ All assembly parts were printed with ABS
     * SHOOMO T8 lead screws (x2)
 * Gantry
     * LDO 42STH48-2804AH(S40R) long shaft X/Y steppers (x4)
-    * TMC5160 Pro X/Y drivers (x4)
+    * TMC5160T Pro X/Y drivers (x4)
     * Mellow aluminum long shaft motor mounts
     * Mellow aluminum gantry
     * Mellow aluminum gantry rail
@@ -79,9 +79,10 @@ All assembly parts were printed with ABS
     * Mellow HextrudORT Low PLUS (60:10)
     * Mellow Vz Printhead MGN9 (Clone)
     * Mellow Magneto Cutter
+    * Mellow Goliath Air
+    * Mellow PT1000 Thermistor
+    * E3D Nozzle X
     * Cartographer 3D eddy probe
-    * Phaetus Rapido 2.0 UHF hotend
-    * Bondtech Bi-Metal CHT 0.6mm Volcano nozzle
 * MCUs
     * BTT Octopus Pro v1.1 (H723)
     * Raspberry Pi 4 Host
