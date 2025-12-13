@@ -9,7 +9,7 @@ A QuadXY FFF/FDM 3D printer.
 * Max print volume: 235x235x220mm
 * Max acceleration: 50000mm/s^2
 * Max movement speed: 1000mm/s
-* Max volumetric speed: 40mm^3/s
+* Max volumetric speed: 80mm^3/s
 * Max chamber temperature: 60C
 * Max bed temperature: 120C
 * Max hotend temperature: 350C
@@ -47,6 +47,7 @@ All assembly parts were printed with ABS
     * 3mm aluminum back/bottom panels
     * DIN Rails for electronics attachment
     * Rubber feet (25mm)
+    * Top Hat (125mm) w/gass struts
 * Bed
     * LDO 42STH48-2504AC Z stepper
     * TMC2240 driver
