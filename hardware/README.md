@@ -93,7 +93,6 @@ All assembly parts were printed with ABS
     * Delta 2510 5V dual bearing hotend cooling fan
     * Sunon Maglev 4020 24V mcu cooling fans (x3)
     * Sunon Maglev 4020 12V raspi cooling fan
-    * Sunon Maglev 4020 24V stepper motor cooling fans (x2)
     * GDSTIME 5015 24V bed fans (x2)
     * GDSTIME 6025 24V brushless exhaust fans (x2)
     * GDSTIME 7530 24V dual ball bearing aux cooling fans (x2)
