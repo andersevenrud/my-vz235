@@ -63,7 +63,7 @@ All assembly parts were printed with ABS
     * SHOOMO T8 lead screws (x2)
 * Gantry
     * LDO 42STH48-2804AH(S40R) long shaft X/Y steppers (x4)
-    * TMC5160T Pro X/Y drivers (x4)
+    * Mellow TMC5160 Pro v1.5 external drivers (x4)
     * Mellow aluminum long shaft motor mounts
     * Mellow aluminum gantry
     * Mellow aluminum gantry rail
