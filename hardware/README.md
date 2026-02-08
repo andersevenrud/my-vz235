@@ -44,7 +44,7 @@ All assembly parts were printed with ABS
 * Frame
     * 2020 Black Aluminum Extrusions
     * 3mm Polycarbonate glass side panels
-    * 3mm aluminum back/bottom panels
+    * 3mm aluminum back/bottom panels w/black vinyl wrap
     * DIN Rails for electronics attachment
     * Rubber feet (25mm)
     * Top Hat (125mm) w/gass struts
@@ -106,7 +106,7 @@ All assembly parts were printed with ABS
     * Mellow Fly 5" LCD
     * Piezo Buzzer
     * DWS 136deg 1080p USB camera
-    * 24V RGB 300mm Flex LED Strip for accent lighting
+    * 5V RGB LED Strip for accent lighting
     * 24V White VzLight 300mm PCB LED Strip for overhead lighting
     * Carbon + HEPA exhaust filters
     * Stepper driven nozzle cleaner (LDO 42STH25-1404MAC, TMC2209)
