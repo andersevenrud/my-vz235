@@ -12,7 +12,7 @@ A QuadXY FFF/FDM 3D printer.
 * Max volumetric speed: 80mm^3/s
 * Max chamber temperature: 60C
 * Max bed temperature: 120C
-* Max hotend temperature: 350C
+* Max hotend temperature: 400C
 * Stepper voltage: 48V X/Y, 24V Z
 * Enclosure: Yes; magnetic front doors, removable top cover
 * Lighting: Yes; White overhead, RGB Neopixel ambient
@@ -79,8 +79,10 @@ All assembly parts were printed with ABS
     * TMC2240 extruder driver
     * Mellow HextrudORT Low PLUS (60:10)
     * Mellow Vz Printhead MGN9 (Clone)
-    * Mellow Magneto Cutter
+    * Mellow Magneto Filament Cutter
     * Mellow Goliath Air
+    * Mellow Goliath Titanium Heat Shield
+    * Mellow Goliath Glass Fiber Sock
     * Mellow PT1000 Thermistor
     * E3D Nozzle X
     * Cartographer 3D eddy probe
@@ -110,3 +112,4 @@ All assembly parts were printed with ABS
     * 24V White VzLight 300mm PCB LED Strip for overhead lighting
     * Carbon + HEPA exhaust filters
     * Stepper driven nozzle cleaner (LDO 42STH25-1404MAC, TMC2209)
+    * ZN30 Voltmeters
