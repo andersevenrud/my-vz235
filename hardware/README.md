@@ -17,7 +17,7 @@ A QuadXY FFF/FDM 3D printer.
 * Enclosure: Yes; magnetic front doors, removable top cover
 * Lighting: Yes; White overhead, RGB Neopixel ambient
 * Camera: Yes; Full HD, Wide Angle
-* Chamber heating: Passive w/bed fans
+* Chamber heating: Active (PTC)
 * Exhaust: Filtered
 * Filament Management: Wiper, Cutter, Macros
 * Parts Cooling: CPAP, RSCS
@@ -90,6 +90,7 @@ All assembly parts were printed with ABS
     * BTT Octopus Pro v1.1 (H723)
     * Raspberry Pi 4 Host
 * Temperature Control
+    * PTC 24V (200W) w/fan
     * Mellow WS7040 24V CPAP Blower fan
     * Mellow 15mm CPAP fan pipe
     * Delta 2510 5V dual bearing hotend cooling fan
@@ -100,10 +101,11 @@ All assembly parts were printed with ABS
     * GDSTIME 7530 24V dual ball bearing aux cooling fans (x2)
     * 3950 Thermistors for chamber (top / bottom)
     * 3950 M3 Screw-in Thermistor for bed edge
-* PSUs
+* Power
     * Sompom S-360-24, 24V, 15A, 360W
     * Sompom S-360-48, 48V, 7.5A, 360W
     * KIS3R33S 5V Buck Converter (15W)
+    * HA210NO6 Mosfet (25A)
 * Misc
     * Mellow Fly 5" LCD
     * Piezo Buzzer
