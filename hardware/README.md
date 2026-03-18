@@ -108,6 +108,7 @@ All assembly parts were printed with ABS
     * HA210NO6 Mosfet (25A)
 * Misc
     * Mellow Fly 5" LCD
+    * Mellow LLL Plus Filament Buffer
     * Piezo Buzzer
     * DWS 136deg 1080p USB camera
     * 5V RGB LED Strip for accent lighting
