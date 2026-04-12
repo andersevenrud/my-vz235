@@ -60,6 +60,7 @@ G92 E0
 ```gcode
 ;AFTER_LAYER_CHANGE
 SET_PRINT_STATS_INFO CURRENT_LAYER={layer_num + 1}
+ON_LAYER_CHANGE LAYER={layer_num + 1}
 ;{layer_z}
 ```
 
